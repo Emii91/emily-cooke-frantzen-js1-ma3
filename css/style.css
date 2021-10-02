@@ -1,0 +1,13 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+
+.results {
+    margin: 20px;
+    padding: 20px;
+    background-color:cadetblue;
+    border: 1px solid black;
+    border-radius: 51px;
+}
