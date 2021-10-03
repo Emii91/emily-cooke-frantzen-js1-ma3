@@ -14,14 +14,14 @@ async function getGames() {
 
     for (let i = 0; i < facts.length; i++) {
         console.log(facts[i].name);
+        console.log(facts[i].rating);
 
         if (i === 8) {
             break;
         }
 
-        resultsContainer.innerHTML += `<div class="results">${facts[i].name}</div>`
+        resultsContainer.innerHTML += `<div class="results">${facts[i].name} ${facts[i].rating}</div>`
     }
-
 }
 
 getGames();
