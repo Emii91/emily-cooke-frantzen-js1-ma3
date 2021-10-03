@@ -21,7 +21,7 @@ async function getGames() {
         }
 
         resultsContainer.innerHTML += `<div class="results">${facts[i].name} ${facts[i].rating}</div>`
-    }
+    }   
 }
 
 getGames();
